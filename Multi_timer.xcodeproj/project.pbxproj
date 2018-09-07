@@ -14,6 +14,7 @@
 		0261C3C82135603E00A1A3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3C62135603E00A1A3A5 /* LaunchScreen.storyboard */; };
 		0261C3D32135603E00A1A3A5 /* Multi_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C3D22135603E00A1A3A5 /* Multi_timerTests.swift */; };
 		0261C3DE2135603E00A1A3A5 /* Multi_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261C3DD2135603E00A1A3A5 /* Multi_timerUITests.swift */; };
+		0261C3EC213568DA00A1A3A5 /* alertsound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0261C3EB213568DA00A1A3A5 /* alertsound1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0261C3D92135603E00A1A3A5 /* Multi_timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Multi_timerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0261C3DD2135603E00A1A3A5 /* Multi_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_timerUITests.swift; sourceTree = "<group>"; };
 		0261C3DF2135603E00A1A3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0261C3EB213568DA00A1A3A5 /* alertsound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alertsound1.mp3; path = ../../../Downloads/alertsound1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0261C3C42135603E00A1A3A5 /* Assets.xcassets */,
 				0261C3C62135603E00A1A3A5 /* LaunchScreen.storyboard */,
 				0261C3C92135603E00A1A3A5 /* Info.plist */,
+				0261C3EB213568DA00A1A3A5 /* alertsound1.mp3 */,
 			);
 			path = Multi_timer;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				0261C3C82135603E00A1A3A5 /* LaunchScreen.storyboard in Resources */,
 				0261C3C52135603E00A1A3A5 /* Assets.xcassets in Resources */,
 				0261C3C32135603D00A1A3A5 /* Main.storyboard in Resources */,
+				0261C3EC213568DA00A1A3A5 /* alertsound1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6DQG6BK52;
 				INFOPLIST_FILE = Multi_timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6DQG6BK52;
 				INFOPLIST_FILE = Multi_timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
